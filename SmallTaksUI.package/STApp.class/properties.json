@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "AbstractApp",
+	"category" : "SmallTaksUI-Models",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"tasks",
+		"state"
+	],
+	"name" : "STApp",
+	"type" : "normal"
+}

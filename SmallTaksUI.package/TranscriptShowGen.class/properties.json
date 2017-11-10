@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WATaskGenerator",
+	"category" : "SmallTaksUI-Models",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TranscriptShowGen",
+	"type" : "normal"
+}

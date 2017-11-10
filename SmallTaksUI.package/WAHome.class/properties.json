@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "WALayout",
+	"category" : "SmallTaksUI-WebApp",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"pipelineConfig",
+		"downloader",
+		"current"
+	],
+	"name" : "WAHome",
+	"type" : "normal"
+}

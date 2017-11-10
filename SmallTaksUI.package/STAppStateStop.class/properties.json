@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "STAppState",
+	"category" : "SmallTaksUI-Models",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "STAppStateStop",
+	"type" : "normal"
+}

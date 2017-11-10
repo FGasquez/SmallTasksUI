@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "WALayout",
+	"category" : "SmallTaksUI-WebApp",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"selectedTasks",
+		"config",
+		"downloadTask",
+		"options"
+	],
+	"name" : "WAPipelineConfig",
+	"type" : "normal"
+}

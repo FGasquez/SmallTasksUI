@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "WATaskGenerator",
+	"category" : "SmallTaksUI-Models",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"quantity",
+		"operator"
+	],
+	"name" : "WordsFilterGen",
+	"type" : "normal"
+}

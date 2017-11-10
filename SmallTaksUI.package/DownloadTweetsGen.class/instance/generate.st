@@ -1,0 +1,3 @@
+accessing
+generate
+	^ ProcessorNullTask new

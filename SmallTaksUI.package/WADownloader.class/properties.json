@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "WALayout",
+	"category" : "SmallTaksUI-WebApp",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"twitterApp",
+		"storageTask"
+	],
+	"name" : "WADownloader",
+	"type" : "normal"
+}

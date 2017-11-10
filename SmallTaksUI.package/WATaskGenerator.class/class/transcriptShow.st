@@ -1,0 +1,3 @@
+accessing
+transcriptShow
+	^TranscriptShowGen  new

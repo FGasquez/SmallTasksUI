@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "SmallTaksUI-WebApp",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"Header",
+		"tweets"
+	],
+	"name" : "WALayout",
+	"type" : "normal"
+}

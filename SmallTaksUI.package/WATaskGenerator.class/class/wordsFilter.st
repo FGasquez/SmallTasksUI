@@ -1,0 +1,3 @@
+accessing
+wordsFilter
+	^ WordsFilterGen new
