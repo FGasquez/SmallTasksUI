@@ -1,3 +1,3 @@
 accessing
 generate
-	^SmallTask storage.
+	^ SmallTask storage: self collection 

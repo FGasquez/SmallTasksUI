@@ -1,3 +1,3 @@
 accessing
 generate
-	^ ProcessorNullTask new
+	^ STApp prepare: self hashtag 

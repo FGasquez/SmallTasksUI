@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	self tweets: Set new.
+	self file: 'tweets'

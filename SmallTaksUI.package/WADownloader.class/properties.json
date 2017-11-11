@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"twitterApp",
-		"storageTask"
+		"storageTask",
+		"tweets"
 	],
 	"name" : "WADownloader",
 	"type" : "normal"

@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "WALayout",
+	"super" : "WAComponent",
 	"category" : "SmallTaksUI-WebApp",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -8,8 +8,9 @@
 	"instvars" : [
 		"pipelineConfig",
 		"downloader",
-		"current"
+		"current",
+		"twitterApp"
 	],
-	"name" : "WAHome",
+	"name" : "WAController",
 	"type" : "normal"
 }

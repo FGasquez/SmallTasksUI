@@ -1,3 +1,3 @@
 accessing
 generate
-	^ (SmallTask prepare: [ :tweet | tweet language = self lang ]) filter
+	^ (SmallTask prepare: [ :tweet | tweet language perform: self mode with: self lang]) filter

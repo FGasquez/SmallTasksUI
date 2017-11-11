@@ -1,11 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "WATaskGenerator",
+	"super" : "TaskGenerator",
 	"category" : "SmallTaksUI-Models",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"collection"
+	],
 	"name" : "StorageGen",
 	"type" : "normal"
 }

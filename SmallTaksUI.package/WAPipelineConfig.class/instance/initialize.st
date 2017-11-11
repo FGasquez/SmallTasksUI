@@ -1,6 +1,7 @@
 initialization
 initialize
 	super initialize.
+	StreamingRetriever stopAll.
 	self downloadTask: DownloadTweetsGen new.
 	self config: self downloadTask.
 	self selectedTasks: OrderedCollection new.
@@ -8,7 +9,8 @@ initialize
 	self
 		options:
 			(OrderedCollection
-				with: LangFilterGen new
-				with: WordsFilterGen new
-				with: TranscriptShowGen new
-				with: StorageGen new)
+				with: (TaskGenerator getTask: #langFilter)
+				with: (TaskGenerator getTask: #wordsFilter)
+				with: (TaskGenerator getTask: #transcriptShow)
+				with: (TaskGenerator getTask: #storageGen)
+				with: (TaskGenerator getTask: #stonGen))

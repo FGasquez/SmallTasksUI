@@ -1,6 +1,6 @@
 rendering
 renderContentOn: html
-	StreamingRetriever stopAll. self navbar: html.
+	self navbar: html.
 	html
 		tbsContainer: [ self renderOptionsOn: html.
 			self renderSelectedOn: html ].

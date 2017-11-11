@@ -15,11 +15,11 @@ renderConfigOn: html with: app
 				style: 'width:100px';
 				value: self quantity;
 				callback: [ :value | self quantity: value asInteger ].
-				html break.
+			html break.
 			html tbsSubmitButton
 				bePrimary;
 				with: 'Guardar'.
 			html tbsButton
-				bePrimary;
+				beDanger;
 				callback: [ app remove: self ];
 				with: 'eliminar' ]

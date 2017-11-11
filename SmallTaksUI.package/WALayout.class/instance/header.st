@@ -1,4 +1,3 @@
 rendering
 header
-	^ 'SmallTasks UI'
-	statements
+	^ 'SmallTasks UI' 

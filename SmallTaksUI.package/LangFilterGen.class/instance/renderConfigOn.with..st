@@ -14,7 +14,7 @@ renderConfigOn: html with: app
 						with: 'Aceptar  '.
 					html checkbox
 						value: self acept;
-						callback: [ :value | self acept: value ] ].
+						callback: [ :value | self acept: value  ] ].
 			html break.
 			html break.
 			html tbsSubmitButton

@@ -1,0 +1,3 @@
+accessing
+stonGen
+	^ STONStorageGen  new
