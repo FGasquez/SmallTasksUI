@@ -4,7 +4,10 @@ renderTweetsOn: html
 		style:
 			'max-height:500px;
 		overflow-y:auto';
-		with: [ html label for:'tweets' ;with:'Tweets Descargados'.html tbsTable
+		with: [ html label
+				for: 'tweets';
+				with: 'Tweets Descargados'.
+			html tbsTable
 				beStriped;
 				with: [ html
 						tableHead: [ html tableHeading: '#'.
@@ -27,4 +30,5 @@ renderTweetsOn: html
 				form: [ html tbsSubmitButton
 						beSuccess;
 						style: 'float:right';
-						with: 'refresh' ] ]
+						with: [ 
+							html tbsGlyphIcon iconRetweet ] ] ]

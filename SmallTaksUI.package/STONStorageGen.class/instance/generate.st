@@ -1,3 +1,4 @@
-initialization
+accessing
 generate
-	^ (SmallTask reporter: #ston) >> 'Tweets'
+	self removeConflict.
+	^ (SmallTask reporter: #ston) >> self file
