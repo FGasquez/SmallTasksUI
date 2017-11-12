@@ -10,7 +10,7 @@ renderOptionsOn: html
 							html select
 								id: 'options';
 								class: 'form-control';
-								callback: [ :value | self selectedTasks add: (TaskGenerator getTask: value id) ];
+								callback: [ :value | self selectedTasks add: (ConfigGenerator getTask: value id) ];
 								list: self options;
 								labels: [ :each | each name ];
 								size: 5 ].

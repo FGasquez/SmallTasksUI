@@ -1,11 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "ConfigGenerator",
 	"category" : "SmallTaksUI-Models",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "TaskGenerator",
+	"instvars" : [
+		"hashtag"
+	],
+	"name" : "TwitterAppGen",
 	"type" : "normal"
 }

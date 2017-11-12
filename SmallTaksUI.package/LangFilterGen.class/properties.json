@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "TaskGenerator",
+	"super" : "ConfigGenerator",
 	"category" : "SmallTaksUI-Models",
 	"classinstvars" : [ ],
 	"pools" : [ ],

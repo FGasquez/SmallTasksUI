@@ -2,15 +2,15 @@ initialization
 initialize
 	super initialize.
 	StreamingRetriever stopAll.
-	self downloadTask: DownloadTweetsGen new.
+	self downloadTask: TwitterAppGen new.
 	self config: self downloadTask.
-	self selectedTasks: OrderedCollection new.
-	self selectedTasks add: self config.
+	self selectedTasks: (OrderedCollection with: self downloadTask).
+
 	self
 		options:
 			(OrderedCollection
-				with: (TaskGenerator getTask: #langFilter)
-				with: (TaskGenerator getTask: #wordsFilter)
-				with: (TaskGenerator getTask: #transcriptShow)
-				with: (TaskGenerator getTask: #storageGen)
-				with: (TaskGenerator getTask: #stonGen))
+				with: (ConfigGenerator getTask: #langFilter)
+				with: (ConfigGenerator getTask: #wordsFilter)
+				with: (ConfigGenerator getTask: #transcriptShow)
+				with: (ConfigGenerator getTask: #storageGen)
+				with: (ConfigGenerator getTask: #stonGen))
