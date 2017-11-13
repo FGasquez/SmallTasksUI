@@ -5,7 +5,7 @@ switch: app on: html
 	twitterApp := (self selectedTasks reject: [ :each | each isTask ])
 		ifNotEmpty: [ :aCollection | aCollection first generate ].
 	aTasksCollection := self selectedTasks copy.
-	aTasksCollection add: (StorageGen prepare: set).
+	aTasksCollection add: (CollectionStorageGen prepare: set).
 	twitterApp tasks: {(self taskGenOf: (aTasksCollection select: [ :each | each isTask ]))}.
 	app downloader tweets: set.
 	app twitterApp: twitterApp.

@@ -2,7 +2,7 @@ rendering
 renderTweetsOn: html
 	html tbsContainer
 		style:
-			'max-height:500px;
+			'max-height:350px;
 		overflow-y:auto';
 		with: [ html label
 				for: 'tweets';
@@ -22,7 +22,8 @@ renderTweetsOn: html
 														beCircle;
 														width: 50;
 														url: aTweet user profile_image_url ].
-											html tableData: aTweet user name.
+											html
+												tableData: aTweet user name ,' - @' , aTweet user screen_name.
 											html tableData: aTweet text ] ] ] ] ].
 	html break.
 	html
@@ -30,5 +31,4 @@ renderTweetsOn: html
 				form: [ html tbsSubmitButton
 						beSuccess;
 						style: 'float:right';
-						with: [ 
-							html tbsGlyphIcon iconRetweet ] ] ]
+						with: [ html tbsGlyphIcon iconRetweet ] ] ]
