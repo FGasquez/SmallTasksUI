@@ -12,4 +12,5 @@ initialize
 				with: (ConfigGenerator getTask: #wordsFilter)
 				with: (ConfigGenerator getTask: #transcriptShow)
 				with: (ConfigGenerator getTask: #collectionStorageGen)
-				with: (ConfigGenerator getTask: #storageGen))
+				with: (ConfigGenerator getTask: #storageGen)
+				with: (ConfigGenerator getTask: #translateGen))
