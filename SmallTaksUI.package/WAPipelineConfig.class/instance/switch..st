@@ -1,5 +1,5 @@
 as yet unclassified
-switch: app on: html
+switch: app
 	| twitterApp set aTasksCollection |
 	set := Set new.
 	twitterApp := (self selectedTasks reject: [ :each | each isTask ])
