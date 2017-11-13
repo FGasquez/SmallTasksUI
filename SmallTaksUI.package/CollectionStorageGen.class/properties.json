@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ConfigGenerator",
+	"category" : "SmallTaksUI-Models",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"collection"
+	],
+	"name" : "CollectionStorageGen",
+	"type" : "normal"
+}
