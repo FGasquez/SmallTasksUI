@@ -6,10 +6,19 @@ renderConfigOn: html with: app
 				with: 'Nombre del archivo'.
 			html textInput
 				tbsFormControl;
-				value: self file;
+				value: self fileName;
 				name: 'fileName';
 				style: 'with:100px';
-				callback: [ :value | self file: value ].
+				callback: [ :value | self fileName: value ].
+			html label
+				for: 'fileName';
+				with: 'Tipo de archivo'.
+			html select
+				class: 'form-control ';
+				callback: [ :value | self builder: value ];
+				list: self builders;
+				labels:[:each| each second];
+				selected: self builder.
 			self exists
 				ifTrue: [ self renderWarningOn: html ].
 			html break.

@@ -1,4 +1,6 @@
 initialization
 initialize
 	super initialize.
-	self collection: Set new
+	self
+		fileName: 'tweets';
+		builder: (self builders first)

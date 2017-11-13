@@ -1,3 +1,4 @@
 accessing
 generate
-	^ SmallTask storage: self collection 
+	self removeConflict.
+	^ (SmallTask reporter: self builder first) >> self fileName
