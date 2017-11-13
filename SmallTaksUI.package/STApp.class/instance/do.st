@@ -1,3 +1,4 @@
 actions
 do
-	self state do: self
+	StreamingRetriever stopAll.
+	super do.

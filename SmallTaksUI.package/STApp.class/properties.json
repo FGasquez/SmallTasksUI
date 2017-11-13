@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"tasks",
-		"state"
+		"tasks"
 	],
 	"name" : "STApp",
 	"type" : "normal"
