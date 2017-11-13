@@ -1,6 +1,4 @@
 accessing
 removeConflict
-	| aFile |
-	aFile := File named: self file , '.ston'.
-	aFile exists
-		ifTrue: [ aFile  delete ]
+	self exists
+		ifTrue: [ (File named: self file , '.ston') delete ]

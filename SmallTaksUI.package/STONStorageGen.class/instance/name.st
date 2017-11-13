@@ -1,3 +1,3 @@
 accessing
 name
-	^'Almacenar en formato STON'
+	^ 'Almacenar en formato STON'
