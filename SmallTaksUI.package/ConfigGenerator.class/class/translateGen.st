@@ -1,0 +1,3 @@
+accessing
+translateGen
+	^ TranslateGen new
