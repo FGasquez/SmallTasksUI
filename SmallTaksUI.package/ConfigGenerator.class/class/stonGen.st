@@ -1,3 +1,0 @@
-accessing
-stonGen
-	^ STONStorageGen  new

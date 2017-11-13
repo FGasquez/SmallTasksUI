@@ -1,0 +1,3 @@
+accessing
+collectionStorageGen
+	^ CollectionStorageGen new
