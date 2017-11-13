@@ -13,11 +13,6 @@ renderTweetsOn: html
 						tableHead: [ html tableHeading: '#'.
 							html tableHeading: 'Usuario'.
 							html tableHeading: 'Tweet' ].
-					self tweets
-						ifEmpty: [ html break.
-							html tbsImage
-								url: 'https://i.giphy.com/media/FyetIxXamPsfC/giphy.webp'.
-							html break ].
 					html
 						tableBody: [ self tweets
 								do: [ :aTweet | 
@@ -28,11 +23,12 @@ renderTweetsOn: html
 														width: 50;
 														url: aTweet user profile_image_url ].
 											html tableData: aTweet user name , ' - @' , aTweet user screen_name.
-											html tableData: aTweet text ] ] ] ] ].
-	html break.
-	html
-		tbsContainer: [ html
-				form: [ html tbsSubmitButton
-						beSuccess;
-						style: 'float:right';
-						with: [ html tbsGlyphIcon iconRetweet ] ] ]
+											html tableData: aTweet text ] ] ] ].
+			self tweets ifEmpty: [ self gandalfOn: html ]].
+			html break.
+			html
+				tbsContainer: [ html
+						form: [ html tbsSubmitButton
+								beSuccess;
+								style: 'float:right';
+								with: [ html tbsGlyphIcon iconRetweet ] ] ] 
