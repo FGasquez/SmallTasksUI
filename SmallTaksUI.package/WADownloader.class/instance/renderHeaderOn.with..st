@@ -1,5 +1,5 @@
 rendering
-headerOn: html with: aHashtag
+renderHeaderOn: html with: aHashtag
 	html
 		tbsContainer: [ html
 				tbsPageHeader: [ html
