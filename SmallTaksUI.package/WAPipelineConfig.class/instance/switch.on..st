@@ -1,4 +1,4 @@
-rendering
+as yet unclassified
 switch: app on: html
 	| twitterApp set aTasksCollection |
 	set := Set new.
@@ -8,5 +8,6 @@ switch: app on: html
 	aTasksCollection add: (StorageGen prepare: set).
 	twitterApp tasks: {(self taskGenOf: (aTasksCollection select: [ :each | each isTask ]))}.
 	app downloader tweets: set.
-	app twitterApp: twitterApp .
-	app current: app downloader
+	app twitterApp: twitterApp.
+	app current: app downloader.
+	twitterApp do
