@@ -1,3 +1,3 @@
 accessing
 langOptions
-	^ #(es en ru pl fr pt gr it cz )
+	^ #(az mk cs lt es en de be uk hy bg tr ro ru pl fr pt it)
