@@ -4,10 +4,7 @@ renderTweetsOn: html
 		style:
 			'max-height:350px;
 		overflow-y:auto';
-		with: [ html text: 'Tweets Descargados: '.
-			html tbsLabel
-				beSuccess;
-				with: self tweets size asString.
+		with: [ 
 			html tbsTable
 				beStriped;
 				with: [ html
