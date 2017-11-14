@@ -8,7 +8,8 @@ renderConfigOn: html with: app
 			html select
 				callback: [ :value | self lang: value ];
 				selected: self lang;
-				list: self langOptions.
+				list: self langOptions;
+				labels: [ :each | each first ].
 			html
 				tbsInputGroup: [ html checkbox
 						value: self acept;

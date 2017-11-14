@@ -1,3 +1,3 @@
 accessing
 generate
-	^ SmallTask translator: self lang 
+	^ SmallTask translator: self lang second
