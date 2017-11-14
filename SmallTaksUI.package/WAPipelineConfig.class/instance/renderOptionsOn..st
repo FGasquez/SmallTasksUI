@@ -13,6 +13,6 @@ renderOptionsOn: html
 								callback: [ :value | self selectedTasks add: (ConfigGenerator getTask: value id) ];
 								list: self options;
 								labels: [ :each | each name ];
-								size: 5 ].
+								size: 7 ].
 					html break.
 					html tbsSubmitButton with: 'Agregar' ] ]
