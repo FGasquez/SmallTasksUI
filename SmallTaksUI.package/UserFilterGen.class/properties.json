@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "ConfigGenerator",
+	"category" : "SmallTaksUI-Models",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"user",
+		"acept"
+	],
+	"name" : "UserFilterGen",
+	"type" : "normal"
+}

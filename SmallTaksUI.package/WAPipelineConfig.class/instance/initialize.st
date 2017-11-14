@@ -9,8 +9,10 @@ initialize
 		options:
 			(OrderedCollection
 				with: (ConfigGenerator getTask: #langFilter)
-				with: (ConfigGenerator getTask: #wordsFilter)
-				with: (ConfigGenerator getTask: #transcriptShow)
-				with: (ConfigGenerator getTask: #collectionStorageGen)
-				with: (ConfigGenerator getTask: #storageGen)
-				with: (ConfigGenerator getTask: #translateGen))
+					with: (ConfigGenerator getTask: #wordsFilter)
+					with: (ConfigGenerator getTask: #transcriptShow)
+					with: (ConfigGenerator getTask: #collectionStorageGen)
+					with: (ConfigGenerator getTask: #storageGen)
+					with: (ConfigGenerator getTask: #translateGen)).
+					self options
+				add: (ConfigGenerator getTask: #userFilter)
