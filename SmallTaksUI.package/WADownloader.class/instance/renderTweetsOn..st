@@ -1,11 +1,9 @@
 rendering
 renderTweetsOn: html
-	html tbsContainer
-		style:
-			'max-height:350px;
+	html tbsContainer style:
+					'max-height:350px;
 		overflow-y:auto';
-		with: [ 
-			html tbsTable
+		with: [ html tbsTable
 				beStriped;
 				with: [ html
 						tableHead: [ html tableHeading: '#'.
