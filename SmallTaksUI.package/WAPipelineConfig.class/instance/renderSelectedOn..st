@@ -13,6 +13,6 @@ renderSelectedOn: html
 								list: self selectedTasks;
 								labels: [ :each | each name ];
 								selected: self config;
-								size: 7 ].
+								size: 10 ].
 					html break.
 					html tbsSubmitButton with: 'Configurar' ] ]
