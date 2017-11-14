@@ -3,18 +3,17 @@ renderConfigOn: html with: app
 	html
 		form: [ html label
 				for: 'languages';
-				with: 'idioma '.
+				with: 'Seleccionar los tweets en el idioma:'.
+			html break.
 			html select
 				callback: [ :value | self lang: value ];
 				selected: self lang;
 				list: self langOptions.
 			html
-				tbsInputGroup: [ html label
-						for: 'acept';
-						with: 'Aceptar  '.
-					html checkbox
+				tbsInputGroup: [ html checkbox
 						value: self acept;
-						callback: [ :value | self acept: value  ] ].
+						callback: [ :value | self acept: value ].
+					html label with: 'Aceptar  ' ].
 			html break.
 			html break.
 			html tbsSubmitButton
