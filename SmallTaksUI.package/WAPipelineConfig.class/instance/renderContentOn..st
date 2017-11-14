@@ -9,4 +9,4 @@ renderContentOn: html
 	html
 		tbsContainer: [ html tbsColumn
 				mediumSize: 5;
-				with: [ html tbsWell: [ self config renderConfigOn: html with: self ] ] ]
+				with: [  self config renderConfigurationOn: html with: self ] ]

@@ -1,10 +1,9 @@
 accessing
 renderConfigOn: html with: app
-	html
-		tbsContainer: [ html text: 'La tarea ' , self name , ' no se puede configurar'.
+	 html text: 'La tarea ' , self name , ' no posee menu de configuracion'.
 			html break.
 			html
 				form: [ html tbsSubmitButton
-						beDanger ;
+						beDanger;
 						callback: [ app remove: self ];
-						with: 'eliminar' ] ]
+						with: 'eliminar' ] 
