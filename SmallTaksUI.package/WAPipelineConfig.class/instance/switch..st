@@ -1,7 +1,7 @@
 as yet unclassified
 switch: app
 	| twitterApp set aTasksCollection |
-	set := Set new.
+	set := OrderedCollection  new.
 	twitterApp := (self selectedTasks reject: [ :each | each isTask ])
 		ifNotEmpty: [ :aCollection | aCollection first generate ].
 	aTasksCollection := self selectedTasks copy.
