@@ -6,9 +6,11 @@ renderConfigOn: html with: app
 				with: 'Traducir al idioma:  '.
 			html space.
 			html select
+				class: 'form-control';
 				callback: [ :value | self lang: value ];
 				selected: self lang;
-				list:self langOptions; labels:[:each| each first] .
+				list: self langOptions;
+				labels: [ :each | each first ].
 			html break.
 			html break.
 			html tbsSubmitButton

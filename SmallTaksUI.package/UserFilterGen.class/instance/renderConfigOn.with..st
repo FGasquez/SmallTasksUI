@@ -13,14 +13,13 @@ renderConfigOn: html with: app
 				tbsInputGroup: [ html space.
 					html checkbox
 						value: self acept;
-						callback: [ :value | self acept: value ].
-					html label
-						for: 'acept';
-						with: 'Aceptar los tweets de este usuario ' ].
-			html break.
-			html tbsSubmitButton
-				bePrimary;
-				with: 'Guardar' .html tbsButton
-				beDanger;
-				callback: [ app remove: self ];
-				with: 'eliminar' ]
+						callback: [ :value | self acept: value ];
+						with: ' Obtener los tweets de este usuario; sino, se rechazan'.
+					html break.
+					html tbsSubmitButton
+						bePrimary;
+						with: 'Guardar'.
+					html tbsButton
+						beDanger;
+						callback: [ app remove: self ];
+						with: 'eliminar' ] ]
