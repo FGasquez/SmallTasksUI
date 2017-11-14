@@ -18,6 +18,6 @@ modalImage: aUser On: html
 										level: 4;
 										with: aUser name ].
 							html
-								tbsModalBody: [ html tbsImage
-										width: '500' ;
+								tbsModalBody class:'text-center'; with: [ html tbsImage
+										width: '500';
 										url: aUser profile_image_url ] ] ] ]
