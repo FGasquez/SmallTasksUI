@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "WAComponent",
-	"category" : "SmallTaksUI-WebApp",
+	"super" : "Object",
+	"category" : "SmallTaksUI-Factory",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "WALayout",
+	"name" : "ConfigGeneratorFactory",
 	"type" : "normal"
 }

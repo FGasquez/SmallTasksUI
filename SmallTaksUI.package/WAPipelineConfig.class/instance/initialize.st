@@ -8,11 +8,10 @@ initialize
 	self
 		options:
 			(OrderedCollection
-				with: (ConfigGenerator getTask: #langFilter)
-					with: (ConfigGenerator getTask: #wordsFilter)
-					with: (ConfigGenerator getTask: #transcriptShow)
-					with: (ConfigGenerator getTask: #collectionStorageGen)
-					with: (ConfigGenerator getTask: #storageGen)
-					with: (ConfigGenerator getTask: #translateGen)).
-					self options
-				add: (ConfigGenerator getTask: #userFilter)
+				with: (ConfigGeneratorFactory genTask: #langFilter)
+				with: (ConfigGeneratorFactory  genTask: #wordsFilter)
+				with: (ConfigGeneratorFactory  genTask: #transcriptShow)
+				with: (ConfigGeneratorFactory  genTask: #collectionStorageGen)
+				with: (ConfigGeneratorFactory  genTask: #storageGen)
+				with: (ConfigGeneratorFactory  genTask: #translateGen)).
+	self options add: (ConfigGeneratorFactory  genTask: #userFilter)

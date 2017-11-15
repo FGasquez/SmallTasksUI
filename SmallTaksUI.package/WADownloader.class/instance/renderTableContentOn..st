@@ -3,7 +3,7 @@ renderTableContentOn: html
 	self tweets reverse
 		do: [ :aTweet | 
 			html
-				tableRow: [ html tableData: [ self modalImage: aTweet user On: html ].
+				tableRow: [ html tableData: [ self renderImageOf: aTweet user On: html ].
 					html
 						tableData: [ html text: aTweet user name. html break.
 							(html anchor

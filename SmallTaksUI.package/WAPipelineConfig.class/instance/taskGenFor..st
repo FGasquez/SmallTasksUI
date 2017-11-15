@@ -1,5 +1,5 @@
 as yet unclassified
-taskGenOf: aCollection
+taskGenFor: aCollection
 	| firstTask |
 	firstTask := aCollection ifNotEmpty: [ :each | each removeFirst generate ].
 	firstTask ifNotNil: [ aCollection do: [ :each | firstTask |> each generate ] ].

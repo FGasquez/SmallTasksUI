@@ -1,5 +1,5 @@
 rendering
-gandalfOn: html
+renderGandalfOn: html
 	html
 		tbsContainer: [ html tbsColumn
 				mediumSize: 5;
@@ -7,5 +7,5 @@ gandalfOn: html
 						for: 'gandalf';
 						with: 'Aùn no se descarga ningun tweet'.
 					html break.
-					html tbsImage url: 'https://i.giphy.com/media/FyetIxXamPsfC/giphy.webp'.
+					html tbsImage class:'img-fluid'; url: 'https://i.giphy.com/media/FyetIxXamPsfC/giphy.webp'.
 					html break ] ]

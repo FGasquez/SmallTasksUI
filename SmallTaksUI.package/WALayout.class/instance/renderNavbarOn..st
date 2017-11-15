@@ -1,5 +1,5 @@
 rendering
-navbar: html
+renderNavbarOn: html
 	html tbsNavbar beDefault
 		with: [ html
 				tbsContainer: [ 

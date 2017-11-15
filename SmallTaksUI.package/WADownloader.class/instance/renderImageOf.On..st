@@ -1,5 +1,5 @@
 rendering
-modalImage: aUser On: html
+renderImageOf: aUser On: html
 	html anchor
 		url: '#' , aUser id_str;
 		attributeAt: 'data-toggle' put: 'modal';

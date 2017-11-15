@@ -3,4 +3,5 @@ register: app
 	app
 		exceptionHandler: WADebugErrorHandler;
 		addLibrary: JQDeploymentLibrary;
-		addLibrary: TBSDevelopmentLibrary
+		addLibrary: JQUiDeploymentLibrary ;
+		addLibrary: TBSDeploymentLibrary

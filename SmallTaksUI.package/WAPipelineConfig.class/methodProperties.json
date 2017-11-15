@@ -1,0 +1,21 @@
+{
+	"instance" : {
+		"renderSwitchOn:with:" : "FedericoGasquez 11/13/2017 22:34",
+		"options" : "FGasquez 11/13/2017 22:27:04",
+		"selectedTasks:" : "FGasquez 11/13/2017 22:27:04",
+		"switch:" : "FedericoGasquez 11/15/2017 17:07",
+		"renderContentOn:with:" : "FedericoGasquez 11/15/2017 12:07",
+		"remove:" : "FGasquez 11/13/2017 22:27:04",
+		"options:" : "FGasquez 11/13/2017 22:27:04",
+		"initialize" : "FedericoGasquez 11/15/2017 12:54",
+		"downloadTask" : "FGasquez 11/13/2017 22:27:04",
+		"downloadTask:" : "FGasquez 11/13/2017 22:27:04",
+		"renderOptionsOn:" : "FedericoGasquez 11/15/2017 12:54",
+		"config" : "FGasquez 11/13/2017 22:27:04",
+		"renderSelectedOn:" : "FedericoGasquez 11/14/2017 15:17",
+		"selectedTasks" : "FGasquez 11/13/2017 22:27:04",
+		"taskGenFor:" : "FedericoGasquez 11/15/2017 17:07",
+		"config:" : "FGasquez 11/13/2017 22:27:04"
+	},
+	"class" : { }
+}

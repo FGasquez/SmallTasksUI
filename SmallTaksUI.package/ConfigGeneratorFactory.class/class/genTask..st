@@ -1,3 +1,3 @@
 instance creation
-getTask: aSymbol
+genTask: aSymbol
 	^self perform: aSymbol
